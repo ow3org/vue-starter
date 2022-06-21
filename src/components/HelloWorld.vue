@@ -1,17 +1,11 @@
 <script setup lang="ts">
+import { count, increment } from '../composables'
+
 const {
   name = 'J. Doe',
 } = defineProps<{
   name?: string
 }>()
-
-// reactive state
-let count = $ref(0)
-
-// functions that mutate state and trigger updates
-function increment() {
-  count++
-}
 
 // lifecycle hooks
 // onMounted(() => {
