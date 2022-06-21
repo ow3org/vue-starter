@@ -1,6 +1,6 @@
 {
   "name": "my-lib",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "packageManager": "pnpm@7.3.0",
   "description": "The easy way to start your Vue 3 Component Library.",
   "author": "Chris Breuer <chris@ow3.org>",
