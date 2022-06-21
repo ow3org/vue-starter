@@ -1,6 +1,4 @@
-import { ref } from 'vue'
-
-// reactive state
+// these Vue APIs are auto-imported
 const count = ref(0)
 
 // functions that mutate state and trigger updates
