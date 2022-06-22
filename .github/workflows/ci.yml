@@ -140,8 +140,8 @@ jobs:
           build: pnpm run build
           start: npx vite --port 3333
 
-  js-cs-fixer:
-    # if: github.event_name == 'pull_request' && ! startsWith(github.ref, 'refs/heads/auto-fixed/')
+  js-cs-fixer: # TODO: does this still work as it should?
+    if: github.event_name == 'pull_request' && ! startsWith(github.ref, 'refs/heads/auto-fixed/')
     runs-on: ${{ matrix.os }}
 
     strategy:
