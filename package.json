@@ -57,7 +57,7 @@
     "test:e2e": "cypress open",
     "test:unit": "vitest",
     "typecheck": "vue-tsc --emitDeclarationOnly",
-    "release": "npx bumpp package.json --execute 'pnpm run changelog' --all",
+    "release": "bumpp --execute 'pnpm run changelog' --all",
     "preinstall": "node .scripts/check-for-pnpm.js && node .scripts/check-node-version.mjs"
   },
   "dependencies": {
