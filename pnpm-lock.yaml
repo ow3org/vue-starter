@@ -5,9 +5,9 @@ specifiers:
   '@babel/types': ^7.18.4
   '@ow3/stacks': ^0.20.8
   '@types/node': ^17.0.31
-  '@vueuse/core': ^8.7.4
+  '@vueuse/core': ^8.7.5
   bumpp: ^8.2.1
-  cypress: ^10.1.0
+  cypress: ^10.2.0
   eslint: ^8.18.0
   eslint-plugin-cypress: ^2.12.1
   lint-staged: ^13.0.2
@@ -26,11 +26,11 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.25.1_b5e7v2qnwxfo6hmiq56u52mz3e
   '@babel/types': 7.18.4
-  '@ow3/stacks': 0.20.8_dg5ksewinpom4p6r6254grdivm
+  '@ow3/stacks': 0.20.8_3b7hmaio2spmp3nepy6zdcnla4
   '@types/node': 17.0.45
-  '@vueuse/core': 8.7.4_vue@3.2.37
+  '@vueuse/core': 8.7.5_vue@3.2.37
   bumpp: 8.2.1
-  cypress: 10.1.0
+  cypress: 10.2.0
   eslint: 8.18.0
   eslint-plugin-cypress: 2.12.1_eslint@8.18.0
   lint-staged: 13.0.2
@@ -511,7 +511,7 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@ow3/stacks/0.20.8_dg5ksewinpom4p6r6254grdivm:
+  /@ow3/stacks/0.20.8_3b7hmaio2spmp3nepy6zdcnla4:
     resolution: {integrity: sha512-IYwOhW2OWANDpGb4k7KACOglX9Qz14RdbigsmhKbDy5DY64BWESYFyU/XBCO44z/z08JfeaZN56ODbLtn3CmXw==}
     engines: {node: '>=v16.15.1', pnpm: '>=7.3.0'}
     dependencies:
@@ -519,7 +519,7 @@ packages:
       '@unocss/transformer-compile-class': 0.39.3
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.12+vue@3.2.37
       unocss: 0.39.3_vite@2.9.12
-      unplugin-auto-import: 0.8.8_2stne5n5kyl6qbsin45drmlmkm
+      unplugin-auto-import: 0.8.8_4jnm4urp6nwbe5o76bpn6kimyu
       unplugin-vue-components: 0.19.6_vite@2.9.12+vue@3.2.37
       vite-plugin-inspect: 0.5.0_vite@2.9.12
     transitivePeerDependencies:
@@ -679,6 +679,10 @@ packages:
 
   /@types/unist/2.0.6:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
+    dev: true
+
+  /@types/web-bluetooth/0.0.14:
+    resolution: {integrity: sha512-5d2RhCard1nQUC3aHcq/gHzWYO6K0WJmAbjO7mQJgCQKtZpgXxv1rOM6O/dBDhDYYVutk1sciOgNSe+5YyfM8A==}
     dev: true
 
   /@types/yauzl/2.10.0:
@@ -1063,8 +1067,8 @@ packages:
   /@vue/shared/3.2.37:
     resolution: {integrity: sha512-4rSJemR2NQIo9Klm1vabqWjD8rs/ZaJSzMxkMNeJS6lHiUjjUeYFbooN19NgFjztubEKh3WlZUeOLVdbbUWHsw==}
 
-  /@vueuse/core/8.7.4_vue@3.2.37:
-    resolution: {integrity: sha512-dQgxjb79PDcizlaclgCkCzNoqNv12PnbXxUOFL9VacakmD/ACoSMWwTpcG3HKoDoYyl2V3kSW/8AkvXGEYEGFA==}
+  /@vueuse/core/8.7.5_vue@3.2.37:
+    resolution: {integrity: sha512-tqgzeZGoZcXzoit4kOGLWJibDMLp0vdm6ZO41SSUQhkhtrPhAg6dbIEPiahhUu6sZAmSYvVrZgEr5aKD51nrLA==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
@@ -1074,18 +1078,19 @@ packages:
       vue:
         optional: true
     dependencies:
-      '@vueuse/metadata': 8.7.4
-      '@vueuse/shared': 8.7.4_vue@3.2.37
+      '@types/web-bluetooth': 0.0.14
+      '@vueuse/metadata': 8.7.5
+      '@vueuse/shared': 8.7.5_vue@3.2.37
       vue: 3.2.37
       vue-demi: 0.13.1_vue@3.2.37
     dev: true
 
-  /@vueuse/metadata/8.7.4:
-    resolution: {integrity: sha512-CwEYS6/M6JDxk9D1mUsZq3F0VnYnf39rAxOytP58vb4BrhmPKEVfiSpvxuYcJimU9ccT/xjWhwBnsdGC2H9mIQ==}
+  /@vueuse/metadata/8.7.5:
+    resolution: {integrity: sha512-emJZKRQSaEnVqmlu39NpNp8iaW+bPC2kWykWoWOZMSlO/0QVEmO/rt8A5VhOEJTKLX3vwTevqbiRy9WJRwVOQg==}
     dev: true
 
-  /@vueuse/shared/8.7.4_vue@3.2.37:
-    resolution: {integrity: sha512-QhwTEd2Gr/8ZliWVEM8sbMUkXtVVV1Mt1mOkCnIbIN33D/V28FwGKUKqEPGZZCXuJchARnun/J1TAiT/UmZd1w==}
+  /@vueuse/shared/8.7.5_vue@3.2.37:
+    resolution: {integrity: sha512-THXPvMBFmg6Gf6AwRn/EdTh2mhqwjGsB2Yfp374LNQSQVKRHtnJ0I42bsZTn7nuEliBxqUrGQm/lN6qUHmhJLw==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
@@ -1610,8 +1615,8 @@ packages:
   /csstype/2.6.20:
     resolution: {integrity: sha512-/WwNkdXfckNgw6S5R125rrW8ez139lBHWouiBvX8dfMFtcn6V81REDqnH7+CRpRipfYlyU1CmOnOxrmGcFOjeA==}
 
-  /cypress/10.1.0:
-    resolution: {integrity: sha512-aQ4JVZVib4Xd9FZW8IRZfKelUvqF4y5A+oUbNvn8TlsBmEfIg3m5Xd6Mt6PVU/jHiVJ9Psl905B3ZPnrDcmyuQ==}
+  /cypress/10.2.0:
+    resolution: {integrity: sha512-+i9lY5ENlfi2mJwsggzR+XASOIgMd7S/Gd3/13NCpv596n3YSplMAueBTIxNLcxDpTcIksp+9pM3UaDrJDpFqA==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
@@ -4905,7 +4910,7 @@ packages:
       - vite
     dev: true
 
-  /unplugin-auto-import/0.8.8_2stne5n5kyl6qbsin45drmlmkm:
+  /unplugin-auto-import/0.8.8_4jnm4urp6nwbe5o76bpn6kimyu:
     resolution: {integrity: sha512-cVZ79zMR1v4VCZ9emFTUnltmazCc2B4hObyVrxJdlgJ2sK8qub6JfjFt38rCF6MVEddkHiWCU6wZR1qbdqe+ig==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4916,7 +4921,7 @@ packages:
     dependencies:
       '@antfu/utils': 0.5.2
       '@rollup/pluginutils': 4.2.1
-      '@vueuse/core': 8.7.4_vue@3.2.37
+      '@vueuse/core': 8.7.5_vue@3.2.37
       local-pkg: 0.4.1
       magic-string: 0.26.2
       unimport: 0.2.9_vite@2.9.12
