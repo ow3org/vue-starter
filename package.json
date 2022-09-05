@@ -68,7 +68,7 @@
     "@babel/types": "^7.18.9",
     "@ow3/stacks": "^0.20.8",
     "@types/node": "^17.0.31",
-    "@vueuse/core": "^8.9.4",
+    "@vueuse/core": "^9.2.0",
     "bumpp": "^8.2.1",
     "cypress": "^10.3.1",
     "eslint": "^8.20.0",
