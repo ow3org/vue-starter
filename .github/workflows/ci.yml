@@ -123,17 +123,6 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      # TODO: is this still needed?
-      - name: Cypress PNPM Patch
-        run: cp pnpm-lock.yaml package-lock.json
-
-      - name: Cypress
-        uses: cypress-io/github-action@v2
-        with:
-          install-command: echo
-          build: pnpm run build
-          start: npx vite --port 3333
-
   js-cs-fixer: # TODO: does this still work as it should?
     if: github.event_name == 'pull_request' && ! startsWith(github.ref, 'refs/heads/auto-fixed/')
     runs-on: ${{ matrix.os }}

@@ -45,5 +45,6 @@
     "automagically",
     "openwebstacks",
     "corepack",
+    "changelogithub",
   ]
 }

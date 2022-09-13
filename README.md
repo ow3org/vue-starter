@@ -87,7 +87,7 @@ This Starter Kit is a Component-First, UI & Build Framework. When developing you
 - [Modern CSS Engine](https://github.com/unocss/unocss) - pre-configured UnoCSS allows to create & manage your style guide with ease
 - [Fully Typed APIs](https://www.typescriptlang.org/) - via TypeScript 4.8
 - [Be a Good Commitizen](https://www.npmjs.com/package/git-cz) - pre-configured Commitizen & git-cz setup to simplify semantic git commits, versioning, and changelog generations
-- [Built With Testing In Mind](https://github.com/vitest-dev/vitest) - pre-configured unit-testing powered by [Vitest](https://github.com/vitest-dev/vitest) & e2e-testing by [Cypress](https://cypress.io/)
+- [Built With Testing In Mind](https://github.com/vitest-dev/vitest) - pre-configured unit & e2e-testing powered by [Vitest](https://github.com/vitest-dev/vitest)
 - [Renovate](https://renovatebot.com/) - optimized & automated PR dependency updates
 - [GitHub Actions](https://github.com/features/actions) - runs your CI (fixes code style issues, tags releases & creates its changelogs, runs the test suite, etc.
 
