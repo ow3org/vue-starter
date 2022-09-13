@@ -9,7 +9,7 @@ async function main() {
   const nodeV = await promisify(exec)('node -v');
   const nodeVersion = parseInt(nodeV.stdout.slice(1).split('.')[0]);
 
-  if (nodeVersion < 16) {
+  if (nodeVersion < 16) {check-node-version
     console.warn(
       '\n',
       `⚠️ \u001b[33mThis package requires your Node.js version to be \`>=16\`` +

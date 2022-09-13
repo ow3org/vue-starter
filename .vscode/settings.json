@@ -43,6 +43,7 @@
     "breakline",
     "deps",
     "automagically",
-    "openwebstacks"
+    "openwebstacks",
+    "corepack",
   ]
 }

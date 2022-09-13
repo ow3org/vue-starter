@@ -1,29 +1,17 @@
+import type { UserConfig } from 'vite'
 import { defineConfig } from 'vite'
-import { Stacks, alias, buildVueComponents as vueComponents } from '@ow3/stacks'
+import { Stacks, componentsBuildOptions as vueComponents } from '@ow3/stacks'
 
-/** @type {import('vite').UserConfig} */
-const config = {
+const config: UserConfig = {
   resolve: {
-    dedupe: ['vue'],
-    alias,
+    dedupe: ['vue', 'cac'],
   },
 
   plugins: [
-    Stacks(),
+    Stacks()
   ],
 
   build: vueComponents(),
-
-  // sourcemap: true,
-  // minify: false,
-
-  test: {
-    include: ['tests/**/*.test.ts'],
-    // environment: 'jsdom',
-    deps: {
-      inline: ['@vue', '@vueuse/core', 'vue-demi'],
-    },
-  },
 }
 
 // https://vitejs.dev/config

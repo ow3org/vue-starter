@@ -83,9 +83,9 @@ Read more about the setup & tips in the docs.
 
 This Starter Kit is a Component-First, UI & Build Framework. When developing your own library, this Starter Kit bootstraps the following for you:
 
-- [Powerful Build Engine](https://github.com/openwebstacks/vue-starter/tree/main/.stacks/builds) - Stacks is a optimized [Vite](https://vitejs.dev/) & [unbuild](https://github.com/unjs/unbuild) harmony
+- [Powerful Build Engine](https://github.com/openwebstacks/vue-starter/tree/main/.stacks/builds) - Stacks is a optimized [Vite](https://vitejs.dev/) build engine
 - [Modern CSS Engine](https://github.com/unocss/unocss) - pre-configured UnoCSS allows to create & manage your style guide with ease
-- [Fully Typed APIs](https://www.typescriptlang.org/) - via TypeScript 4.7
+- [Fully Typed APIs](https://www.typescriptlang.org/) - via TypeScript 4.8
 - [Be a Good Commitizen](https://www.npmjs.com/package/git-cz) - pre-configured Commitizen & git-cz setup to simplify semantic git commits, versioning, and changelog generations
 - [Built With Testing In Mind](https://github.com/vitest-dev/vitest) - pre-configured unit-testing powered by [Vitest](https://github.com/vitest-dev/vitest) & e2e-testing by [Cypress](https://cypress.io/)
 - [Renovate](https://renovatebot.com/) - optimized & automated PR dependency updates
