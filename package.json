@@ -2,7 +2,7 @@
   "name": "@ow3/hello-world-vue",
   "type": "module",
   "version": "0.14.0",
-  "packageManager": "pnpm@7.11.0",
+  "packageManager": "pnpm@8.15.7",
   "description": "The most simple way to develop your Vue 3 Component Library.",
   "author": "Chris Breuer",
   "license": "MIT",
@@ -43,7 +43,7 @@
   ],
   "engines": {
     "node": ">=v16.17.0",
-    "pnpm": ">=7.11.0"
+    "pnpm": ">=8.15.7"
   },
   "scripts": {
     "build": "vite build && pnpm run typecheck",
