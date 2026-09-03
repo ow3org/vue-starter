@@ -64,7 +64,7 @@
   },
   "devDependencies": {
     "@ow3/eslint-config": "^0.28.2",
-    "@babel/types": "^7.19.0",
+    "@babel/types": "^8.0.4",
     "@ow3/stacks": "^0.30.4",
     "@types/node": "^18.7.16",
     "@vueuse/core": "^9.2.0",
